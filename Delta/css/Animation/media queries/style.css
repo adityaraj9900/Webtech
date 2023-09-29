@@ -1,0 +1,49 @@
+h1{
+    background-color: rgb(181, 181, 14);
+    border: 2px solid black;
+}
+@media (width:400px){
+    h1{
+        background-color: red;
+        color:whitesmoke;
+    }
+    div{
+        height:100px;
+        width:100px;
+        background-color: red;
+    }
+}
+@media (min-width:700px){
+    h1{
+        background-color:green;
+        color:whitesmoke;
+    }
+    div{
+        height:100px;
+        width:100px;
+        background-color: red;
+    }
+}
+@media (max-width:200px){
+    h1{
+        background-color:blue;
+        color:whitesmoke;
+    }
+    div{
+        height:100px;
+        width:100px;
+        background-color: red;
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    h1{
+        background-color:magenta;
+        color:whitesmoke;
+    }
+}
+@media (orientation:landscape) {
+    h1{
+        background-color: aqua;
+        color:brown;
+    }
+}

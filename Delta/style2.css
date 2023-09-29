@@ -1,0 +1,33 @@
+.a{
+    width:400px;
+    height:400px;
+    background-color: limegreen;
+    margin:10px auto;
+    border-radius: 5%;
+    box-shadow: 2px 2px 10px black;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Courier New', Courier, monospace;
+   /* background-image: url("5.jpeg");
+    background-size: contain;*/
+}
+div:hover{
+    background-color: hotpink;
+}
+button{
+    background-color: red;
+    color: whitesmoke;
+}
+button:hover{
+    background-color:black;
+}
+.b{
+    margin: left 10px;;
+}
+h1{
+   text-align: center;
+   color:red;
+}
+h1:hover{
+    color:green
+}

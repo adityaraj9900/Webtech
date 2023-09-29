@@ -1,0 +1,49 @@
+/*section{
+    margin-top:100px;
+}
+div{
+    width:200px;
+    height:50px;
+    text-align: center;
+    background-color: #7aa874;
+    border:2px solid black;
+    margin:10px;
+    margin :0 auto;
+}
+div:nth-of-type(2n){
+    background-color: red;
+}
+div:nth-of-type(3n){
+    background-color: yellow;
+}
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform:scale(0.5) //x,y
+}
+#three{
+    transform:translateX(-100px)
+}
+#four{
+    transform: skew(30deg);
+}
+#five{
+    transform: rotate(30deg) translateX(150px);
+}*/
+/*div{
+    width:200px;
+    height:50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin:10px auto;
+    box-shadow:2px 2px 8px black;
+}*/
+div{
+    width:400px;
+    height:200px;
+    background-color: #7aa874;
+    margin:10px auto;
+    background-image: url("1.jpeg");
+    background-size: contain;
+}

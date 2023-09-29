@@ -1,0 +1,127 @@
+/*h2{
+    color:orange;
+}
+p{
+    color:white;
+    background-color: black;
+}
+button{
+    color:whitesmoke;
+    background-color:blue;
+}*/
+/*h1{
+    text-align: center;
+    border:solid;
+}
+h3{
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}*/
+/*logo practice h1{
+    font-family: League spartan;
+    color:#ffa511;
+    text-align: center;
+    font-size:55px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+}*/
+/*universal selector*/
+*{ 
+    font-family: "Courier New";
+}
+/*element selector*/
+h1,h3{
+    color:#b92b27;
+}
+/*id selector*/
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color:white; 
+}
+/*class selector*/
+.upvote{
+    background-color: green;
+    color:aliceblue;
+}
+/*descendent selector kitna bhi level andar ja skte hai*/
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+/*nav a or nav ul li a*/
+nav ul li a{
+    color:hotpink;
+}
+/*adjacent sibling combinator*/
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+    color:darkblue;
+}
+/*child combinator isme ek hi level andar ja skte hai*/
+div>input{
+    background-color: darksalmon;
+}
+/*attribute selector*/
+input[type="text"]{
+    color:green;
+}
+input[type="password"]{
+    color:red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+/*hover*/
+button:hover{
+    background-color: black;
+    color:white;
+} 
+/*h3:hover{
+    text-decoration: none;
+}*/
+/*active*/
+button:active{
+    background-color: hotpink;
+    color:black;
+}
+p:active{
+    font-weight: bold;
+    color:green;
+}
+/*checked*/
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+}
+/*nth-of-type*/
+/*.post:nth-of-type(2){
+    background-color: blanchedalmond;
+}*/
+/*first letter*/
+h1::first-letter{
+    color:pink;
+}
+/*first line*/
+p::first-line{
+    color:purple;
+}
+/*selection*/
+p::selection{
+    background-color: limegreen;
+}
+
+
+
+
+
+
+
